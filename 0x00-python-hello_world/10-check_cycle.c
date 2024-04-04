@@ -22,5 +22,6 @@ int check_cycle(listint_t *list)
 			return (1);
 	}
 
+	if (list == NULL)
 	return (0);
 }
